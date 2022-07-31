@@ -14,7 +14,7 @@
                :access
                :alexandria
                :arrow-macros
-               :fof  ;; file-object-finder
+               ; :fof  ;; file-object-finder -- excluding since it depends on `magicffi`
 
                ;; threads
                :bordeaux-threads

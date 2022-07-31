@@ -26,7 +26,7 @@ variables and and function return values.
 - easy-routes: Yet another routes handling utility on top of Hunchentoot
 - fiveam: A simple regression testing framework
 - fn: Some macros for lambda brevity
-- fof: File-object finder. Enable rapid file search, inspection and manipulation.
+- fof: File-object finder. Enable rapid file search, inspection and manipulation. (Note: excluded)
 - for: An extensible iteration macro library.
 - fset: A functional set-theoretic collections library.
 See: http://www.ergy.com/FSet.html

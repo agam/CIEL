@@ -257,6 +257,8 @@ CL has built-in functions to deal with files and directories and UIOP provides m
 
 See also some functions under `uiop/os` (or simply `uiop` or `os` for short) like `os:getcwd`.
 
+**Note**: `FOF` is currently excluded because it fails to build with `magicffi`
+
 We include the [FOF (File-object finder)](https://gitlab.com/ambrevar/fof/) library, which is very useful to:
 
 - search for files, recursively or not, and filter with our predicates,
