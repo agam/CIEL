@@ -193,6 +193,7 @@ We currently only try this with serapeum. See *deps/serapeum/sequences-hashtable
     :partition
     :partitions
     :split-sequence
+    :def
 
     :count-cpus
 

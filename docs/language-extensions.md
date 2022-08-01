@@ -343,6 +343,30 @@ Trivia has more tricks in its sleeve. See the [special patterns](https://github.
 
 You migth also be interested in exhaustiveness type checking explained just below.
 
+Easy definitions
+----------------
+
+Life is too short for =defparameter=.
+
+`def` comes from [Serapeum](https://quickref.common-lisp.net/serapeum.html#index-def).
+
+<!-- tabs:start -->
+
+#### **CIEL**
+
+```lisp
+(def foo 5)
+```
+
+#### **CL**
+
+```lisp
+(defparameter foo 5)
+```
+
+<!-- tabs:end -->
+
+This does create a _symbol-macro_ behind the scenes, instead of a _special variable_, but you should rarely care about that.
 
 Type declarations
 -----------------
