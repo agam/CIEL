@@ -97,6 +97,17 @@ Rules
 
 * Install
 
+** Pre-requisite: ensure you have the right =ASDF=
+
+- As of July 2022, SBCL ships with version =3.3.1=, which is missing support for =:package-local-nicknames=.
+- Download and install e.g. version =3.3.5=
+- Without this step, you will likely encounter an error like =unrecognized define-package keyword :LOCAL-NICKNAMES=
+
+Sample steps for that:
+- =curl -O https://asdf.common-lisp.dev/archives/asdf.tar.gz=
+- Extract this within =~/common-lisp=
+- Run =make= within the repo, it will create =build/asdf.lisp=
+- Within your REPL, run =(load "~/common-lisp/asdf-3.3.5/build/asdf.lisp")=
 
 ** With Quicklisp
 
