@@ -288,6 +288,10 @@ We currently only try this with serapeum. See *deps/serapeum/sequences-hashtable
                                       :defparameter*
                                       :defvar*))
 
+;; If we're using the "non-keyword version" of `printv`, re-export it here.
+(cl-reexport:reexport-from :printv
+    :include '(:printv))
+
 ;;;
 ;;; Conveniently add type declarations.
 ;;; Straight from Serapeum, only it is -> thus it conflicts with our arrow-macro.
