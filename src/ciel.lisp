@@ -379,12 +379,12 @@ We currently only try this with serapeum. See *deps/serapeum/sequences-hashtable
                     (:http :dexador)))
 
 ;TODO: a conflict between Serapeum and generic-cl
-(uiop:define-package generic-ciel
-  (:use :generic-cl
-        :ciel)
-  ;XXX: local nicknames are duplicated in each package declaration.
-  (:local-nicknames (:csv :cl-csv)
-                    (:http :dexador)))
+; (uiop:define-package generic-ciel
+;   (:use :generic-cl
+;         :ciel)
+;   ;XXX: local nicknames are duplicated in each package declaration.
+;   (:local-nicknames (:csv :cl-csv)
+;                     (:http :dexador)))
 
 (in-package :ciel-user)
 

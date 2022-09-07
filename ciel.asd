@@ -29,7 +29,8 @@
                :cl-json
                :dissect
                :fset
-               :generic-cl
+               ;; TODO: When `generic-cl` is able to be compiled for LW, re-enable
+               ; :generic-cl
 
                ;; web
                :dexador
